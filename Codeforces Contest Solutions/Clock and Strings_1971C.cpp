@@ -13,7 +13,7 @@ int main() {
             if (i == a || i == b) s += 'a';
             if (i == c || i == d) s += 'b';
         }
-        cout << (s== "abab" || s == "baba" ? "YES\n" : "NO\n"  );
+        cout << (s== "aabb" || s == "bbaa" || s == "abba" || s == "baab" ? "NO\n" : "YES\n");
     }
     return 0;
 }
